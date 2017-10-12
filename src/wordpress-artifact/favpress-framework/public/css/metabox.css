@@ -535,4 +535,7 @@
     .favpress-metabox .select2-container .select2-selection--multiple {
       border: none; }
 
+.select2-container--open {
+  z-index: 1000000; }
+
 /*# sourceMappingURL=metabox.css.map */
