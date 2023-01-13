@@ -562,6 +562,7 @@
     display: none;
 }
 
+
 /* jQuery UI widget overlay glitch */
 .ui-widget-overlay {
     background-repeat: repeat;
@@ -592,4 +593,8 @@
 
 .favpress-metabox {
   @import "select2";
+}
+
+.select2-container--open {
+    z-index: 1000000;
 }
